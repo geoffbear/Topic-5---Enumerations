@@ -48,10 +48,6 @@ namespace Topic_5___Enumerations
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            if )
-                clicks++;
-            this.Window.Title = clicks.ToString();
-
                 if (screen == Screen.Intro)
             {
                 if (mouseState.LeftButton == ButtonState.Pressed && prevMouseState.LeftButton == ButtonState.Released)
