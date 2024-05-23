@@ -16,7 +16,6 @@ namespace Topic_5___Enumerations
         }
         Screen screen;
         MouseState mouseState, prevMouseState;
-        int clicks;
 
         public Game1()
         {
@@ -29,7 +28,6 @@ namespace Topic_5___Enumerations
         {
             // TODO: Add your initialization logic here
             screen = Screen.Intro;
-            clicks = 0;
 
             base.Initialize();
         }
